@@ -3,7 +3,7 @@ function computeSquareRoot(num) {
   let quotient;
   let average;
 
-  for (var i = 0; i < 6; i++) {
+  for (let i = 0; i < 6; i++) {
     quotient = num / guess;
     average = (quotient + guess) / 2;
     guess = average;
