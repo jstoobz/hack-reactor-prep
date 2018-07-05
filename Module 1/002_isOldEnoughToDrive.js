@@ -1,3 +1,3 @@
 function isOldEnoughToDrive(age) {
-  return age >= 16 ? true : false;
+  return (age >= 16);
 }
