@@ -1,3 +1,3 @@
 function getLastElement(array) {
-  return array.length !== 0 ? array.pop() : undefined;
+  return array.length === 0 ? undefined : array.pop();
 }
