@@ -1,3 +1,3 @@
 function addFullNameProperty(obj) {
-  return obj['fullName'] = obj.firstName.concat(' ' + obj.lastName);
+  return obj['fullName'] = obj.firstName.concat(` ${obj.lastName}`);
 }
