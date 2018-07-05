@@ -1,3 +1,5 @@
 function getLengthOfThreeWords(word1, word2, word3) {
-  return word1.length + word2.length + word3.length;
+  return Array.from(arguments).reduce((a, b) => {
+    return a + b.length;
+  }, 0);
 }
