@@ -1,3 +1,3 @@
 function computeAreaOfATriangle(base, height) {
-  return base * height / 2;
+  return (base * height) / 2;
 }
