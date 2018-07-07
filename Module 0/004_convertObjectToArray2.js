@@ -1,5 +1,5 @@
 function listAllValues(obj) {
   let values = [];
-  for (let prop in obj) values.push(obj[prop]);
+  for (let value in obj) values.push(obj[value]);
   return values;
 }
