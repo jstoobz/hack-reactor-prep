@@ -8,3 +8,6 @@ function convertScoreToGrade(score) {
     default: return 'F';
   }
 }
+
+var output = convertScoreToGrade(91);
+console.log(output);
