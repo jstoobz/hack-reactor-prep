@@ -4,3 +4,6 @@ function getStringLength(string) {
     return count++;
   }, count = 1);
 }
+
+var output = getStringLength('hello');
+console.log(output);
