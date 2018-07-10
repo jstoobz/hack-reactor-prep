@@ -5,3 +5,15 @@ function transformEmployeeData(array) {
     return employeeObj;
   });
 }
+
+var employee = [
+    [
+        ['firstName', 'Joe'], ['lastName', 'Blow'], ['age', 42], ['role', 'clerk']
+    ],
+    [
+        ['firstName', 'Mary'], ['lastName', 'Jenkins'], ['age', 36], ['role', 'manager']
+    ]
+];
+
+var result = transformEmployeeData(employee);
+console.log(result);
