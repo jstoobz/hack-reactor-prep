@@ -3,3 +3,6 @@ function getLengthOfShortestElement(arr) {
     return Math.min(acc, item.length);
   }, Infinity);
 }
+
+var output = getLengthOfShortestElement(['one', 'two', 'three']);
+console.log(output);
