@@ -1,5 +1,6 @@
 function squareElements(arr) {
-  return arr.map(el => {
-    return Math.pow(el, 2);
-  });
+  return arr.map(el => el ** 2);
 }
+
+var output = squareElements([1, 2, 3]);
+console.log(output);
