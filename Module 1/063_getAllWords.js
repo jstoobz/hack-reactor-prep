@@ -1,3 +1,6 @@
 function getAllWords(str) {
-  return (str.length === 0) ? [] : str.split(' ');
+  return (!str.length) ? [] : str.split(' ');
 }
+
+var output = getAllWords('Radagast the Brown');
+console.log(output);
