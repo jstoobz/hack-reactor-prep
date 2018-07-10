@@ -3,3 +3,12 @@ function removeStringValuesLongerThan(num, obj) {
     if (obj[key].length > num) delete obj[key];
   });
 }
+
+var obj = {
+  name: 'Montana',
+  age: 20,
+  location: 'Texas'
+};
+
+removeStringValuesLongerThan(6, obj);
+console.log(obj);
