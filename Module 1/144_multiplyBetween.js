@@ -5,3 +5,6 @@ function multiplyBetween(num1, num2) {
     return acc * item;
   });
 }
+
+var output = multiplyBetween(2, 5);
+console.log(output);
