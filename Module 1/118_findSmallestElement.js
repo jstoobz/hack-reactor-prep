@@ -1,5 +1,6 @@
 function findSmallestElement(arr) {
-  return (!arr.length) ? 0 : arr.reduce((acc, item) => {
-    return acc < item ? acc : item;
-  }, Infinity);
+  return (!arr.length) ? 0 : Math.min(...arr);
 }
+
+var output = findSmallestElement([4, 1, 9, 10]);
+console.log(output);
