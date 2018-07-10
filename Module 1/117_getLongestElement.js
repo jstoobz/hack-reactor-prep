@@ -3,3 +3,6 @@ function getLongestElement(arr) {
     return acc.length > item.length ? acc : item;
   }, '');
 }
+
+var output = getLongestElement(['one', 'two', 'three']);
+console.log(output);
