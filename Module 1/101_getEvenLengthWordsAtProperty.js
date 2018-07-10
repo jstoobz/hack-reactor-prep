@@ -3,3 +3,10 @@ function getEvenLengthWordsAtProperty(obj, key) {
     if (el.length % 2 === 0) return [].push(el);
   }, []);
 }
+
+var obj = {
+  key: ['a', 'long', 'game']
+};
+
+var output = getEvenLengthWordsAtProperty(obj, 'key');
+console.log(output);
