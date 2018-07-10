@@ -3,3 +3,6 @@ function filterOddLengthWords(words) {
     if (el.length % 2 !== 0) return [].push(el);
   }, []);
 }
+
+var output = filterOddLengthWords(['there', 'it', 'is', 'now']);
+console.log(output);
