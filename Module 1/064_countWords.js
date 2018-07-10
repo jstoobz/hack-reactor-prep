@@ -4,3 +4,6 @@ function countWords(str) {
     return acc;
   }, {});
 }
+
+var output = countWords('ask a bunch get a bunch');
+console.log(output);
