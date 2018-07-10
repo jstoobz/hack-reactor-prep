@@ -3,3 +3,10 @@ function getSumOfAllElementsAtProperty(obj, key) {
     return acc + item;
   });
 }
+
+var obj = {
+  key: [4, 1, 8]
+};
+
+var output = getSumOfAllElementsAtProperty(obj, 'key');
+console.log(output);
