@@ -3,3 +3,6 @@ function getLengthOfLongestElement(arr) {
     return Math.max(acc, item.length);
   }, -Infinity);
 }
+
+var output = getLengthOfLongestElement(['one', 'two', 'three']);
+console.log(output);
