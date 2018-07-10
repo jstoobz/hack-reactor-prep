@@ -1,5 +1,5 @@
 function removeProperty(obj, key) {
-  return delete obj[key];
+  if (key in obj) return delete obj[key];
 }
 
 var obj = {
