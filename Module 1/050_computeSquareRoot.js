@@ -1,13 +1,12 @@
 function computeSquareRoot(num) {
   let guess = num / 2;
-  let quotient;
-  let average;
 
   for (let i = 0; i < 6; i++) {
-    quotient = num / guess;
-    average = (quotient + guess) / 2;
-    guess = average;
+    guess = ((num / guess) + guess) / 2;
   }
 
-  return quotient;
+  return guess;
 }
+
+var output = computeSquareRoot(9);
+console.log(output);
