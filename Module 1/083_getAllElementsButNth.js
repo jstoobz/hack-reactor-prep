@@ -1,4 +1,6 @@
 function getAllElementsButNth(array, n) {
-  array.splice(n, 1);
-  return array;
+  return array.slice(0, n).concat(array.slice(n + 1));
 }
+
+var output = getAllElementsButNth(['a', 'b', 'c'], 1);
+console.log(output);
