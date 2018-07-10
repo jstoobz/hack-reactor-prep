@@ -3,3 +3,6 @@ function getLargestNumberAmongMixedElements(arr) {
     return (typeof item === 'number') && (acc === 0 || item > acc) ? item : acc;
   }, 0);
 }
+
+var output = getLargestNumberAmongMixedElements([3, 'word', 5, 'up', 3, 1]);
+console.log(output);
