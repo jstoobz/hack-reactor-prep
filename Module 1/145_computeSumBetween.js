@@ -5,3 +5,6 @@ function computeSumBetween(num1, num2) {
     return acc + item;
   });
 }
+
+var output = computeSumBetween(2, 5);
+console.log(output);
