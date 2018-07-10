@@ -3,3 +3,6 @@ function findSmallestNumberAmongMixedElements(arr) {
     return (typeof item === 'number') && (acc === 0 || item < acc) ? item : acc;
   }, 0);
 }
+
+var output = findSmallestNumberAmongMixedElements([4, 'lincoln', 9, 'octopus']);
+console.log(output);
