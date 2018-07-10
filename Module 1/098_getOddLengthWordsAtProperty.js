@@ -3,3 +3,10 @@ function getOddLengthWordsAtProperty(obj, key) {
     if (el.length % 2 !== 0) return [].push(el);
   }, []);
 }
+
+var obj = {
+  key: ['It', 'has', 'some', 'words']
+};
+
+var output = getOddLengthWordsAtProperty(obj, 'key');
+console.log(output);
