@@ -3,3 +3,6 @@ function findShortestOfOfThreeWords(word1, word2, word3) {
     return acc.length <= item.length ? acc : item;
   });
 }
+
+var output = findShortestOfOfThreeWords('a', 'two', 'three');
+console.log(output);
