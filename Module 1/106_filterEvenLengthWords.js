@@ -3,3 +3,6 @@ function filterEvenLengthWords(words) {
     if (el.length % 2 === 0) return [].push(el);
   }, []);
 }
+
+var output = filterEvenLengthWords(['word', 'words', 'word', 'words']);
+console.log(output);
