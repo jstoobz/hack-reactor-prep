@@ -4,3 +4,6 @@ function sumDigits(num) {
     return +acc + +item;
   });
 }
+
+var output = sumDigits(-316);
+console.log(output);
