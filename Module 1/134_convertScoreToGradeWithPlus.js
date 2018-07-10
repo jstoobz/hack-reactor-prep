@@ -16,3 +16,6 @@ function convertScoreToGradeWithPlusAndMinus(score) {
     default: return 'F';
   }
 }
+
+var output = convertScoreToGradeWithPlusAndMinus(91);
+console.log(output);
