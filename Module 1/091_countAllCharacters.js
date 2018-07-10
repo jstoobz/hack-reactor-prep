@@ -4,3 +4,6 @@ function countAllCharacters(str) {
     return acc;
   }, {});
 }
+
+var output = countAllCharacters('banana');
+console.log(output);
