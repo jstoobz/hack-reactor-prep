@@ -3,3 +3,10 @@ function getAverageOfElementsAtProperty(obj, key) {
     return acc + item;
   }, 0) / obj[key].length;
 }
+
+var obj = {
+  key: [1, 2, 3]
+};
+
+var output = getAverageOfElementsAtProperty(obj, 'key');
+console.log(output);
