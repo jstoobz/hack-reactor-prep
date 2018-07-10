@@ -3,3 +3,6 @@ function findShortestElement(arr) {
     return acc.length <= item.length ? acc : item;
   }, -Infinity);
 }
+
+var output = findShortestElement(['a', 'two', 'three']);
+console.log(output);
