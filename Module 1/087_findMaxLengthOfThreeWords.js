@@ -3,3 +3,6 @@ function findMaxLengthOfThreeWords(word1, word2, word3) {
     return Math.max(acc, item.length);
   }, -Infinity);
 }
+
+var output = findMaxLengthOfThreeWords('a', 'be', 'see');
+console.log(output);
