@@ -1,7 +1,5 @@
 function computeAverageOfNumbers(nums) {
-  return (!nums.length) ? 0 : nums.reduce((acc, item) => {
-    return acc + item;
-  }, 0) / nums.length;
+  return !nums.length ? 0 : nums.reduce((acc, el) => acc + el, 0) / nums.length;
 }
 
 var input = [1,2,3,4,5];
