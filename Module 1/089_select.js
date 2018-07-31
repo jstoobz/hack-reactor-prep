@@ -1,6 +1,6 @@
 function select(arr, obj) {
-  return selectObj = arr.reduce((acc, item) => {
-    if (obj[item]) acc[item] = obj[item];
+  return Object.keys(obj).reduce((acc, el) => {
+    if (arr.includes(el)) acc[el] = obj[el];
     return acc;
   }, {});
 }
